@@ -28,8 +28,10 @@ const GoogleKeep = () => {
 	<React.Fragment>
 		
 		<Header />
-		<div className="page-wrapper">
+		
+			
 		<CreateNote passNote={addNote} />
+		<div className="row">
 		{addItem.map((val,index)=>{
 			return (
 				<Note 
@@ -43,9 +45,10 @@ const GoogleKeep = () => {
 		})}
 		</div>
 		
-		<div className="footer">
+		
+		
 			<Footer/>
-		</div>
+		
 		
 	</React.Fragment>
 	);

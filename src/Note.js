@@ -12,8 +12,8 @@ const Note = (props) => {
 
 	return (
 	<React.Fragment>
-		<div>	
-		<div className="column  ">
+		<div className="col-lg-4 col-md-6">	
+		<div >
 				<div className="card  mt-3 mb-3 bg-warning " style={{height:"200px"}}>
 			  		<div className="card-body">
 						<h5>{props.title}</h5>
